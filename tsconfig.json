@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "@adaptors/*": ["src/core/adaptors/*"],
+      "@navigators/*": ["src/core/navigators/*"],
+      "@features/*": ["src/features/*"],
+      "@shared/*": ["src/features/*"]
+    }
+  }
+}
